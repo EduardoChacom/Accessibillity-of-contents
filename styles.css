@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+section {
+    padding: 20px;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #555;
+    color: #fff;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+form {
+    margin-bottom: 20px;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button {
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #333;
+}
+
+a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: #fff; /* Cambia el color del texto a blanco */
+}
+
+a:hover {
+    text-decoration: underline; /* Agrega un subrayado al pasar el mouse sobre el enlace */
+}
+
+img {
+    max-width: 50%; /* Cambia el tamaño máximo de la imagen al 50% del contenedor */
+    display: block; /* Hace que la imagen sea un bloque para poder centrarla */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}

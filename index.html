@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineFan - Tu destino cinematográfico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cine Mas - Tu destino cinematográfico</h1>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre Nosotros</a> |
+        <a href="#peliculas">Películas</a> |
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <section id="sobre" class="container">
+        <h2>Sobre Nosotros</h2>
+        <p>Bienvenido a Cine Mas, el lugar donde los amantes del cine pueden encontrar toda la información que necesitan sobre sus películas favoritas.</p>
+        <img src="src/decorativa.png" alt="">
+        <p>En Cine Mas, nos apasiona el cine en todas sus formas y estamos aquí para compartir esa pasión contigo.</p>
+    </section>
+    <section id="peliculas" class="container">
+        <h2>Películas</h2>
+        <table alt="Películas con las mejores criticas de todos los tiempos, con su año de salida y director.">
+            <tr>
+                <th>Título</th>
+                <th>Año</th>
+                <th>Director</th>
+            </tr>
+            <tr>
+                <td>El Padrino</td>
+                <td>1972</td>
+                <td>Francis Ford Coppola</td>
+            </tr>
+            <tr>
+                <td>La lista de Schindler</td>
+                <td>1993</td>
+                <td>Steven Spielberg</td>
+            </tr>
+            <tr>
+                <td>El Señor de los Anillos: La Comunidad del Anillo</td>
+                <td>2001</td>
+                <td>Peter Jackson</td>
+            </tr>
+        </table>
+        <img src="src/promocion.jpg" alt="Promoción de los lunes 15% de descuento en el combo #2. Cine Cinemas." style="border-radius: 20px;">
+        <p>Descubre las últimas noticias, críticas y trailers de las películas más esperadas.</p>
+    </section>
+    <section id="contacto" class="container">
+        <h2>Contacto</h2>
+        <form action="#">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p>¡Déjanos saber tus comentarios, preguntas o sugerencias! Estamos aquí para ayudarte.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Cine Mas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
