@@ -25,22 +25,22 @@
         <h2>Películas</h2>
         <table alt="Películas con las mejores criticas de todos los tiempos, con su año de salida y director.">
             <tr>
-                <th>Título</th>
-                <th>Año</th>
-                <th>Director</th>
+                <th scope="col">Título</th>
+                <th scope="col">Año</th>
+                <th scope="col">Director</th>
             </tr>
             <tr>
-                <td>El Padrino</td>
+                <td scope="row">El Padrino</td>
                 <td>1972</td>
                 <td>Francis Ford Coppola</td>
             </tr>
             <tr>
-                <td>La lista de Schindler</td>
+                <td scope="row">La lista de Schindler</td>
                 <td>1993</td>
                 <td>Steven Spielberg</td>
             </tr>
             <tr>
-                <td>El Señor de los Anillos: La Comunidad del Anillo</td>
+                <td scope="row">El Señor de los Anillos: La Comunidad del Anillo</td>
                 <td>2001</td>
                 <td>Peter Jackson</td>
             </tr>
@@ -52,11 +52,11 @@
         <h2>Contacto</h2>
         <form action="#">
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+            <input type="text" id="nombre" name="nombre" aria-required="true">
             <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" aria-required="true">
             <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <textarea id="mensaje" name="mensaje" rows="4" aria-required="true"></textarea>
             <button type="submit">Enviar</button>
         </form>
         <p>¡Déjanos saber tus comentarios, preguntas o sugerencias! Estamos aquí para ayudarte.</p>
